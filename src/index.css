@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.video-container {
+  width: 50%;
+  height: 100%;
+}
+
+.messaging-container {
+  width: 50%;
+}
+
+.auth-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #44ce2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container-box{
+  width: 400px;
+  height: 400px;
+  background-color: #070a0d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.auth-container-box-logo{
+  object-fit: contain;
+  width: 200px;
+  
+}
+
+.auth-container-form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container-form input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.auth-container-form button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #44ce2e;
+  color: white;
+  justify-content: center;
+}
+
+.auth-options{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
